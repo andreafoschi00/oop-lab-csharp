@@ -45,7 +45,6 @@ namespace Properties
                 Seeds = Enum.GetNames(typeof(ItalianSeeds)).ToList(),
             };
 
-            // TODO understand string format convention
             Console.WriteLine("The {1} deck has {0} cards: ", df.DeckSize, "italian");
 
             foreach (Card c in df.Deck)
